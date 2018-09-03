@@ -8,22 +8,87 @@
 
 /* Begin PBXBuildFile section */
 		CB763832213A392900FE81A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB763831213A392900FE81A0 /* AppDelegate.swift */; };
-		CB763834213A392900FE81A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB763833213A392900FE81A0 /* ViewController.swift */; };
 		CB763837213A392900FE81A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB763835213A392900FE81A0 /* Main.storyboard */; };
 		CB76383A213A392900FE81A0 /* BreedMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB763838213A392900FE81A0 /* BreedMate.xcdatamodeld */; };
 		CB76383C213A392900FE81A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB76383B213A392900FE81A0 /* Assets.xcassets */; };
 		CB76383F213A392900FE81A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB76383D213A392900FE81A0 /* LaunchScreen.storyboard */; };
+		CB7B1B85213ADA4400FA57DF /* BreedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B84213ADA4400FA57DF /* BreedViewController.swift */; };
+		CB7B1B89213ADE0400FA57DF /* BarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B88213ADE0400FA57DF /* BarItem.swift */; };
+		CB7B1B8B213AE20000FA57DF /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B8A213AE20000FA57DF /* FavoriteViewController.swift */; };
+		CB7B1B8D213AE21400FA57DF /* FavoriteTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B8C213AE21400FA57DF /* FavoriteTableViewExtension.swift */; };
+		CB7B1B8F213CB55300FA57DF /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B8E213CB55300FA57DF /* Breed.swift */; };
+		CB7B1B91213CB5D900FA57DF /* BreedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B90213CB5D900FA57DF /* BreedService.swift */; };
+		CB7B1B93213CC27400FA57DF /* BreedsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B92213CC27400FA57DF /* BreedsPresenter.swift */; };
+		CB7B1B95213CC88D00FA57DF /* BasicProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B94213CC88D00FA57DF /* BasicProtocol.swift */; };
+		CB7B1B97213CCA3F00FA57DF /* BreedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B96213CCA3F00FA57DF /* BreedView.swift */; };
+		CB7B1B99213CCA9F00FA57DF /* BreeViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B98213CCA9F00FA57DF /* BreeViewExtension.swift */; };
+		CB7B1B9B213CD15300FA57DF /* BreedTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1B9A213CD15300FA57DF /* BreedTableViewDataSource.swift */; };
+		CB7B1BA1213CDECD00FA57DF /* BreedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1BA0213CDECD00FA57DF /* BreedCell.swift */; };
+		CB7B1BA3213CEACE00FA57DF /* BreedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B1BA2213CEACE00FA57DF /* BreedCollectionViewController.swift */; };
+		CBDE8ABC213CEE0E00E6C006 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDE8ABB213CEE0E00E6C006 /* AlamofireImage.framework */; };
+		CBDE8ABE213CEE1800E6C006 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDE8ABD213CEE1800E6C006 /* Alamofire.framework */; };
+		CBDE8AD4213CF3D400E6C006 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8ACF213CF3D400E6C006 /* FBShimmeringLayer.m */; };
+		CBDE8AD5213CF3D400E6C006 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AD0213CF3D400E6C006 /* FBShimmeringView.m */; };
+		CBDE8ADD213D00C800E6C006 /* BreedDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8ADC213D00C800E6C006 /* BreedDetailsPresenter.swift */; };
+		CBDE8ADF213D014A00E6C006 /* BreedDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8ADE213D014A00E6C006 /* BreedDetailsView.swift */; };
+		CBDE8AE1213D041000E6C006 /* BreedDetailsViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AE0213D041000E6C006 /* BreedDetailsViewExtension.swift */; };
+		CBDE8AE4213D16CF00E6C006 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AE3213D16CF00E6C006 /* ImageCache.swift */; };
+		CBDE8AE6213D29DB00E6C006 /* FavoritesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AE5213D29DB00E6C006 /* FavoritesHandler.swift */; };
+		CBDE8AE9213D349F00E6C006 /* FavoriteBreedsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AE8213D349F00E6C006 /* FavoriteBreedsPresenter.swift */; };
+		CBDE8AEB213D34FB00E6C006 /* FavoriteBreedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AEA213D34FB00E6C006 /* FavoriteBreedsView.swift */; };
+		CBDE8AED213D35C900E6C006 /* FavoriteBreedsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AEC213D35C900E6C006 /* FavoriteBreedsExtension.swift */; };
+		CBDE8AEF213D384D00E6C006 /* FavoriteBreedsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AEE213D384D00E6C006 /* FavoriteBreedsCell.swift */; };
+		CBDE8AF2213D461D00E6C006 /* FavoriteDetailsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AF1213D461D00E6C006 /* FavoriteDetailsCollectionViewController.swift */; };
+		CBDE8AF4213D46E900E6C006 /* FavoriteDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AF3213D46E900E6C006 /* FavoriteDetailsPresenter.swift */; };
+		CBDE8AF6213D491A00E6C006 /* FavoriteDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AF5213D491A00E6C006 /* FavoriteDetailsView.swift */; };
+		CBDE8AF8213D4AC500E6C006 /* FavoriteDetailsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE8AF7213D4AC500E6C006 /* FavoriteDetailsExtension.swift */; };
+		CBDE8AFA213D6BBA00E6C006 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDE8AF9213D6BB900E6C006 /* Kingfisher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB76382E213A392900FE81A0 /* BreedMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreedMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB763831213A392900FE81A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB763833213A392900FE81A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB763836213A392900FE81A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB763839213A392900FE81A0 /* BreedMate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BreedMate.xcdatamodel; sourceTree = "<group>"; };
 		CB76383B213A392900FE81A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB76383E213A392900FE81A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB763840213A392900FE81A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7B1B84213ADA4400FA57DF /* BreedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedViewController.swift; sourceTree = "<group>"; };
+		CB7B1B88213ADE0400FA57DF /* BarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarItem.swift; sourceTree = "<group>"; };
+		CB7B1B8A213AE20000FA57DF /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		CB7B1B8C213AE21400FA57DF /* FavoriteTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewExtension.swift; sourceTree = "<group>"; };
+		CB7B1B8E213CB55300FA57DF /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		CB7B1B90213CB5D900FA57DF /* BreedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedService.swift; sourceTree = "<group>"; };
+		CB7B1B92213CC27400FA57DF /* BreedsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsPresenter.swift; sourceTree = "<group>"; };
+		CB7B1B94213CC88D00FA57DF /* BasicProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicProtocol.swift; sourceTree = "<group>"; };
+		CB7B1B96213CCA3F00FA57DF /* BreedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedView.swift; sourceTree = "<group>"; };
+		CB7B1B98213CCA9F00FA57DF /* BreeViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreeViewExtension.swift; sourceTree = "<group>"; };
+		CB7B1B9A213CD15300FA57DF /* BreedTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTableViewDataSource.swift; sourceTree = "<group>"; };
+		CB7B1BA0213CDECD00FA57DF /* BreedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedCell.swift; sourceTree = "<group>"; };
+		CB7B1BA2213CEACE00FA57DF /* BreedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedCollectionViewController.swift; sourceTree = "<group>"; };
+		CBDE8ABB213CEE0E00E6C006 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = SOURCE_ROOT; };
+		CBDE8ABD213CEE1800E6C006 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		CBDE8ACD213CF3D300E6C006 /* BreedMate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BreedMate-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBDE8ACE213CF3D400E6C006 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = BreedMate/Frameworks/FBShimmering/FBShimmeringView.h; sourceTree = SOURCE_ROOT; };
+		CBDE8ACF213CF3D400E6C006 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = BreedMate/Frameworks/FBShimmering/FBShimmeringLayer.m; sourceTree = SOURCE_ROOT; };
+		CBDE8AD0213CF3D400E6C006 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = BreedMate/Frameworks/FBShimmering/FBShimmeringView.m; sourceTree = SOURCE_ROOT; };
+		CBDE8AD1213CF3D400E6C006 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FBShimmering-Prefix.pch"; path = "BreedMate/Frameworks/FBShimmering/FBShimmering-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		CBDE8AD2213CF3D400E6C006 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = BreedMate/Frameworks/FBShimmering/FBShimmering.h; sourceTree = SOURCE_ROOT; };
+		CBDE8AD3213CF3D400E6C006 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = BreedMate/Frameworks/FBShimmering/FBShimmeringLayer.h; sourceTree = SOURCE_ROOT; };
+		CBDE8ADC213D00C800E6C006 /* BreedDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailsPresenter.swift; sourceTree = "<group>"; };
+		CBDE8ADE213D014A00E6C006 /* BreedDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailsView.swift; sourceTree = "<group>"; };
+		CBDE8AE0213D041000E6C006 /* BreedDetailsViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailsViewExtension.swift; sourceTree = "<group>"; };
+		CBDE8AE3213D16CF00E6C006 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		CBDE8AE5213D29DB00E6C006 /* FavoritesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesHandler.swift; sourceTree = "<group>"; };
+		CBDE8AE8213D349F00E6C006 /* FavoriteBreedsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBreedsPresenter.swift; sourceTree = "<group>"; };
+		CBDE8AEA213D34FB00E6C006 /* FavoriteBreedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBreedsView.swift; sourceTree = "<group>"; };
+		CBDE8AEC213D35C900E6C006 /* FavoriteBreedsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBreedsExtension.swift; sourceTree = "<group>"; };
+		CBDE8AEE213D384D00E6C006 /* FavoriteBreedsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBreedsCell.swift; sourceTree = "<group>"; };
+		CBDE8AF1213D461D00E6C006 /* FavoriteDetailsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailsCollectionViewController.swift; sourceTree = "<group>"; };
+		CBDE8AF3213D46E900E6C006 /* FavoriteDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailsPresenter.swift; sourceTree = "<group>"; };
+		CBDE8AF5213D491A00E6C006 /* FavoriteDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailsView.swift; sourceTree = "<group>"; };
+		CBDE8AF7213D4AC500E6C006 /* FavoriteDetailsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailsExtension.swift; sourceTree = "<group>"; };
+		CBDE8AF9213D6BB900E6C006 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBDE8ABC213CEE0E00E6C006 /* AlamofireImage.framework in Frameworks */,
+				CBDE8AFA213D6BBA00E6C006 /* Kingfisher.framework in Frameworks */,
+				CBDE8ABE213CEE1800E6C006 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,14 +125,138 @@
 			isa = PBXGroup;
 			children = (
 				CB763831213A392900FE81A0 /* AppDelegate.swift */,
-				CB763833213A392900FE81A0 /* ViewController.swift */,
-				CB763835213A392900FE81A0 /* Main.storyboard */,
-				CB76383B213A392900FE81A0 /* Assets.xcassets */,
-				CB76383D213A392900FE81A0 /* LaunchScreen.storyboard */,
+				CBDE8AF0213D458400E6C006 /* Favorite Details */,
+				CBDE8AE7213D2D3600E6C006 /* Favorite Breeds */,
+				CBDE8AE2213D16B900E6C006 /* Data Persistence */,
+				CBDE8ADB213D007E00E6C006 /* Entity */,
+				CBDE8ADA213D006000E6C006 /* Breed Details */,
+				CBDE8AD9213CFA5C00E6C006 /* Breeds */,
+				CBDE8AD8213CFA4D00E6C006 /* Service */,
+				CBDE8AD7213CFA1300E6C006 /* Resources */,
+				CBDE8AD6213CF9FC00E6C006 /* BasicProtocol */,
+				CB7B1BA4213CEC5400FA57DF /* Frameworks */,
+				CB7B1B88213ADE0400FA57DF /* BarItem.swift */,
 				CB763840213A392900FE81A0 /* Info.plist */,
 				CB763838213A392900FE81A0 /* BreedMate.xcdatamodeld */,
 			);
 			path = BreedMate;
+			sourceTree = "<group>";
+		};
+		CB7B1BA4213CEC5400FA57DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBDE8AF9213D6BB900E6C006 /* Kingfisher.framework */,
+				CBDE8ACC213CF3BC00E6C006 /* FBShimmering */,
+				CBDE8ABD213CEE1800E6C006 /* Alamofire.framework */,
+				CBDE8ABB213CEE0E00E6C006 /* AlamofireImage.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBDE8ACC213CF3BC00E6C006 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				CBDE8AD1213CF3D400E6C006 /* FBShimmering-Prefix.pch */,
+				CBDE8AD2213CF3D400E6C006 /* FBShimmering.h */,
+				CBDE8AD3213CF3D400E6C006 /* FBShimmeringLayer.h */,
+				CBDE8ACF213CF3D400E6C006 /* FBShimmeringLayer.m */,
+				CBDE8ACE213CF3D400E6C006 /* FBShimmeringView.h */,
+				CBDE8AD0213CF3D400E6C006 /* FBShimmeringView.m */,
+				CBDE8ACD213CF3D300E6C006 /* BreedMate-Bridging-Header.h */,
+			);
+			name = FBShimmering;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CBDE8AD6213CF9FC00E6C006 /* BasicProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B1B94213CC88D00FA57DF /* BasicProtocol.swift */,
+			);
+			path = BasicProtocol;
+			sourceTree = "<group>";
+		};
+		CBDE8AD7213CFA1300E6C006 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB76383D213A392900FE81A0 /* LaunchScreen.storyboard */,
+				CB763835213A392900FE81A0 /* Main.storyboard */,
+				CB76383B213A392900FE81A0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBDE8AD8213CFA4D00E6C006 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B1B90213CB5D900FA57DF /* BreedService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CBDE8AD9213CFA5C00E6C006 /* Breeds */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B1B9A213CD15300FA57DF /* BreedTableViewDataSource.swift */,
+				CB7B1B84213ADA4400FA57DF /* BreedViewController.swift */,
+				CB7B1B92213CC27400FA57DF /* BreedsPresenter.swift */,
+				CB7B1B96213CCA3F00FA57DF /* BreedView.swift */,
+				CB7B1B98213CCA9F00FA57DF /* BreeViewExtension.swift */,
+				CB7B1BA0213CDECD00FA57DF /* BreedCell.swift */,
+			);
+			path = Breeds;
+			sourceTree = "<group>";
+		};
+		CBDE8ADA213D006000E6C006 /* Breed Details */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B1BA2213CEACE00FA57DF /* BreedCollectionViewController.swift */,
+				CBDE8ADC213D00C800E6C006 /* BreedDetailsPresenter.swift */,
+				CBDE8ADE213D014A00E6C006 /* BreedDetailsView.swift */,
+				CBDE8AE0213D041000E6C006 /* BreedDetailsViewExtension.swift */,
+			);
+			path = "Breed Details";
+			sourceTree = "<group>";
+		};
+		CBDE8ADB213D007E00E6C006 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B1B8E213CB55300FA57DF /* Breed.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CBDE8AE2213D16B900E6C006 /* Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				CBDE8AE3213D16CF00E6C006 /* ImageCache.swift */,
+				CBDE8AE5213D29DB00E6C006 /* FavoritesHandler.swift */,
+			);
+			path = "Data Persistence";
+			sourceTree = "<group>";
+		};
+		CBDE8AE7213D2D3600E6C006 /* Favorite Breeds */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B1B8A213AE20000FA57DF /* FavoriteViewController.swift */,
+				CB7B1B8C213AE21400FA57DF /* FavoriteTableViewExtension.swift */,
+				CBDE8AE8213D349F00E6C006 /* FavoriteBreedsPresenter.swift */,
+				CBDE8AEA213D34FB00E6C006 /* FavoriteBreedsView.swift */,
+				CBDE8AEC213D35C900E6C006 /* FavoriteBreedsExtension.swift */,
+				CBDE8AEE213D384D00E6C006 /* FavoriteBreedsCell.swift */,
+			);
+			path = "Favorite Breeds";
+			sourceTree = "<group>";
+		};
+		CBDE8AF0213D458400E6C006 /* Favorite Details */ = {
+			isa = PBXGroup;
+			children = (
+				CBDE8AF1213D461D00E6C006 /* FavoriteDetailsCollectionViewController.swift */,
+				CBDE8AF3213D46E900E6C006 /* FavoriteDetailsPresenter.swift */,
+				CBDE8AF5213D491A00E6C006 /* FavoriteDetailsView.swift */,
+				CBDE8AF7213D4AC500E6C006 /* FavoriteDetailsExtension.swift */,
+			);
+			path = "Favorite Details";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +269,7 @@
 				CB76382A213A392900FE81A0 /* Sources */,
 				CB76382B213A392900FE81A0 /* Frameworks */,
 				CB76382C213A392900FE81A0 /* Resources */,
+				CB76384A213A434B00FE81A0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -99,6 +292,7 @@
 				TargetAttributes = {
 					CB76382D213A392900FE81A0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -134,13 +328,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB76384A213A434B00FE81A0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireImage.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB76382A213A392900FE81A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB763834213A392900FE81A0 /* ViewController.swift in Sources */,
+				CBDE8AF2213D461D00E6C006 /* FavoriteDetailsCollectionViewController.swift in Sources */,
+				CB7B1B8F213CB55300FA57DF /* Breed.swift in Sources */,
+				CB7B1B93213CC27400FA57DF /* BreedsPresenter.swift in Sources */,
+				CBDE8AE9213D349F00E6C006 /* FavoriteBreedsPresenter.swift in Sources */,
+				CBDE8AEB213D34FB00E6C006 /* FavoriteBreedsView.swift in Sources */,
+				CBDE8AE1213D041000E6C006 /* BreedDetailsViewExtension.swift in Sources */,
+				CB7B1BA1213CDECD00FA57DF /* BreedCell.swift in Sources */,
+				CB7B1B85213ADA4400FA57DF /* BreedViewController.swift in Sources */,
 				CB76383A213A392900FE81A0 /* BreedMate.xcdatamodeld in Sources */,
+				CBDE8AEF213D384D00E6C006 /* FavoriteBreedsCell.swift in Sources */,
+				CBDE8AF6213D491A00E6C006 /* FavoriteDetailsView.swift in Sources */,
+				CB7B1B95213CC88D00FA57DF /* BasicProtocol.swift in Sources */,
+				CBDE8AF4213D46E900E6C006 /* FavoriteDetailsPresenter.swift in Sources */,
+				CBDE8AD4213CF3D400E6C006 /* FBShimmeringLayer.m in Sources */,
+				CB7B1B9B213CD15300FA57DF /* BreedTableViewDataSource.swift in Sources */,
+				CBDE8AED213D35C900E6C006 /* FavoriteBreedsExtension.swift in Sources */,
+				CBDE8ADF213D014A00E6C006 /* BreedDetailsView.swift in Sources */,
+				CBDE8ADD213D00C800E6C006 /* BreedDetailsPresenter.swift in Sources */,
+				CB7B1B8B213AE20000FA57DF /* FavoriteViewController.swift in Sources */,
+				CBDE8AE4213D16CF00E6C006 /* ImageCache.swift in Sources */,
+				CBDE8AF8213D4AC500E6C006 /* FavoriteDetailsExtension.swift in Sources */,
+				CB7B1B97213CCA3F00FA57DF /* BreedView.swift in Sources */,
+				CB7B1BA3213CEACE00FA57DF /* BreedCollectionViewController.swift in Sources */,
+				CBDE8AD5213CF3D400E6C006 /* FBShimmeringView.m in Sources */,
+				CBDE8AE6213D29DB00E6C006 /* FavoritesHandler.swift in Sources */,
+				CB7B1B99213CCA9F00FA57DF /* BreeViewExtension.swift in Sources */,
+				CB7B1B89213ADE0400FA57DF /* BarItem.swift in Sources */,
+				CB7B1B8D213AE21400FA57DF /* FavoriteTableViewExtension.swift in Sources */,
+				CB7B1B91213CB5D900FA57DF /* BreedService.swift in Sources */,
 				CB763832213A392900FE81A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,12 +521,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BUC8ZV3LK2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BreedMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rra.BreedMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BreedMate/Frameworks/New Group/BreedMate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,12 +543,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BUC8ZV3LK2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BreedMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rra.BreedMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BreedMate/Frameworks/New Group/BreedMate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
